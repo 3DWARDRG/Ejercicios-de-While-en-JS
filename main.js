@@ -54,4 +54,83 @@ function validationOfRange(a){
 
 */
 
+/*
 
+let haveNumber= validarinputnumber(prompt("Dame un numero"));
+
+let arrayNumbersInput=[];
+
+while(haveNumber!==0){
+
+    arrayNumbersInput.push(haveNumber);
+
+    haveNumber = validarinputnumber(prompt("Dame otro numero o 0 para terminar"));
+}
+
+alert("Estos son tus numeros? " + arrayNumbersInput + ".")
+
+
+
+
+
+
+
+
+
+
+function validarinputnumber(a){
+    let convertir= parseInt(a);
+    while(isNaN(convertir)){
+
+        let haveNumber= prompt("Solo se permiten numeros, introduce uno.");
+
+        convertir=parseInt(haveNumber);
+    }
+
+    return (convertir)
+
+}
+
+*/
+
+/*
+
+let inputStrings= contieneSoloLetras(prompt("Introduce letras o palabras."));
+
+let arrayStrings=[];
+
+while(inputStrings!==""){
+
+    arrayStrings.push(inputStrings);
+
+    inputStrings= contieneSoloLetras(prompt("Introduce letras, palabras o termina el ciclo simplemente dejando de escribir."));
+
+}
+
+alert("Tu escribiste esto " + arrayStrings + ".")
+
+
+
+
+    function contieneSoloLetras(a) {
+
+        let ValidarString= /^([a-zA-Z]*)$/.test(a);
+
+        let b=a;
+
+        while(ValidarString!==true){
+
+            let b= prompt("Introduce valores validos(Letras o palabras).");
+
+
+            ValidarString=/^([a-zA-Z]*)$/.test(b);
+
+        }
+
+        return b;
+     
+      }
+
+      */
+
+      
